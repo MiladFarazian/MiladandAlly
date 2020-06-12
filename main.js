@@ -2,7 +2,7 @@ $(".carousel").carousel();
 
 $("body").scrollspy({ target: ".navbar", offset: 50 });
 
-$("#myNavbar a").on("click", function(event) {
+$("#navbar a").on("click", function(event) {
   if (this.hash !== "") {
     event.preventDefault();
 
