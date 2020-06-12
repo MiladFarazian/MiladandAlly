@@ -1,5 +1,7 @@
 .body-margin {
   position: relative;
+  background-color: black;
+  color: white;
 }
 
 .fixed-top {
