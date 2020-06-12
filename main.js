@@ -13,9 +13,7 @@ $("#myNavbar a").on("click", function(event) {
         scrollTop: $(hash).offset().top
       },
       400,
-      function() {
-        window.location.hash = hash;
-      }
+      function() {}
     );
   }
 });
