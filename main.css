@@ -9,3 +9,7 @@
   left: 0;
   z-index: 1030;
 }
+
+.pad-top {
+  padding-top: 80px;
+}
