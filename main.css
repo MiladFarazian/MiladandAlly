@@ -49,9 +49,13 @@ div {
 }
 
 .bg-color-6 {
-  background-color: gold;
+  background-color: indigo;
 }
 
 .bg-color-7 {
-  background-color: gold;
+  background-color: orangered;
+}
+
+.bg-color-8 {
+  background-color: limegreen;
 }
