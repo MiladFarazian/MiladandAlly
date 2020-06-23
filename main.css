@@ -8,6 +8,7 @@ div {
   padding: 0;
   margin: 0;
 }
+
 .fixed-top {
   position: fixed;
   top: 0;
