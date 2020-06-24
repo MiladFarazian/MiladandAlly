@@ -112,4 +112,6 @@ div {
   font-style: italic;
   font-stretch: extra-expanded;
   font-size: medium;
+
+  margin: 30px 200px;
 }
