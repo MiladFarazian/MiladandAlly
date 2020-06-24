@@ -9,6 +9,10 @@ div {
   margin: 0;
 }
 
+.navbar {
+  overflow: hidden;
+}
+
 .fixed-top {
   position: fixed;
   top: 0;
