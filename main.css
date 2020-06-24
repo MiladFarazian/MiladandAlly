@@ -9,19 +9,6 @@ div {
   margin: 0;
 }
 
-nav select {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  nav ul {
-    display: none;
-  }
-  nav select {
-    display: inline-block;
-  }
-}
-
 .fixed-top {
   position: fixed;
   top: 0;
