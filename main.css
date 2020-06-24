@@ -9,8 +9,17 @@ div {
   margin: 0;
 }
 
-.navbar {
-  overflow: hidden;
+nav select {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  nav select {
+    display: inline-block;
+  }
 }
 
 .fixed-top {
@@ -93,9 +102,6 @@ div {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
-  }
-  collapse {
-    display: none !important;
   }
 }
 
