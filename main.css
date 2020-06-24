@@ -108,7 +108,8 @@ div {
 }
 
 #dear_ally {
-  font-style: Apple Chancery, cursive;
-  font-stretch: expanded;
+  font-family: Apple Chancery, cursive;
+  font-style: italic;
+  font-stretch: extra-expanded;
   font-size: medium;
 }
