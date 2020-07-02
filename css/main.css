@@ -96,24 +96,6 @@ div {
   border-radius: 5px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 #dear_ally {
   font-family: "Times New Roman", Times, serif, cursive;
   font-style: italic;
@@ -138,19 +120,56 @@ div {
 
 .caption {
   border-radius: 5px;
+  font-size: 36px;
 }
 
 .caption1 {
-  margin: 0% 40%;
+  margin: 0% 38%;
   background-color: #ebd9c6;
+  font-size: 1vw;
 }
 
 .caption2 {
-  margin: 0% 39%;
+  margin: 0% 37%;
   background-color: #ffe0b3;
+  font-size: 1vw;
 }
 
 .caption3 {
-  margin: 0% 41%;
+  margin: 0% 39%;
   background-color: #f3e6ff;
+  font-size: 1vw;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .category-title {
+    text-align: center;
+  }
+  .category-title:before {
+    content: "—";
+  }
+  .category-title:after {
+    content: "—";
+  }
+}
+
+.logo {
+  max-width: 3%;
+  height: auto;
+  margin: 0px 1px;
 }
