@@ -6,6 +6,7 @@ body {
   position: relative;
   background-color: black;
   color: white;
+  font-family: "Pacifico", cursive;
 }
 
 div {
@@ -85,12 +86,14 @@ div {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 5px;
 }
 
 .column video {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -117,14 +120,37 @@ div {
   font-stretch: extra-expanded;
   font-size: large;
 
-  margin: 5%-5px 15%-20px;
+  margin: 5% 15%;
 }
 
 .photo {
-  margin: 5%-5px 15%-20px;
+  margin: 0% 25%;
 }
 
 #header {
   font-size: 20px;
   transition: 0.2s;
+}
+
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+
+.caption {
+  border-radius: 5px;
+}
+
+.caption1 {
+  margin: 0% 40%;
+  background-color: #ebd9c6;
+}
+
+.caption2 {
+  margin: 0% 39%;
+  background-color: #ffe0b3;
+}
+
+.caption3 {
+  margin: 0% 41%;
+  background-color: #f3e6ff;
 }
