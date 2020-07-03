@@ -141,6 +141,17 @@ div {
   font-size: 1vw;
 }
 
+.category-title {
+  text-align: center;
+}
+
+.category-title:before {
+  content: "—";
+}
+.category-title:after {
+  content: "—";
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -156,15 +167,6 @@ div {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-  }
-  .category-title {
-    text-align: center;
-  }
-  .category-title:before {
-    content: "—";
-  }
-  .category-title:after {
-    content: "—";
   }
 }
 
